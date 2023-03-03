@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = 'MyFramework'
   spec.version      = '0.0.1'
   spec.summary      = 'A short description of MyFramework.'
-  spec.homepage     = 'https://github.com/tonymillion/Reachability'
+  spec.homepage     = 'https://github.com/ShashiTiwari07/CocoaSample'
   spec.author       = { 'Shashi Tiwari' => 'tiwari.shashi@orangemantra.in' }
   #spec.license      = { :type => 'BSD', :text => License }
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
