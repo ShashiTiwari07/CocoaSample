@@ -16,15 +16,15 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = 'MyFramework'
-  spec.version      = '0.0.1'
+  spec.version      = '0.1.0'
   spec.summary      = 'A short description of MyFramework.'
-  spec.homepage     = 'https://github.com/ShashiTiwari07/CocoaSample'
+  spec.homepage     = 'https://github.com/ShashiTiwari07/CocoaSample/tree/main/MyFramework'
   spec.author       = { 'Shashi Tiwari' => 'tiwari.shashi@orangemantra.in' }
   #spec.license      = { :type => 'BSD', :text => License }
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.source       = { :git => 'https://github.com/ShashiTiwari07/CocoaSample.git'} #, :tag => "#{s.version}" }
   spec.requires_arc = true
-  spec.source_files = 'MyFramework.{h,m,swift}'
+  spec.source_files = 'MyFramework'
   spec.swift_version = "5.0"
   spec.ios.deployment_target = "13.0"
 
